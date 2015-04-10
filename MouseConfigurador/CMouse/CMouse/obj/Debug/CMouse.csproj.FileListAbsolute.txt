@@ -1,0 +1,13 @@
+C:\Users\cesardarinel\Desktop\Proyecto Final\Nueva carpeta\CMouse\CMouse\bin\Debug\CMouse.exe.config
+C:\Users\cesardarinel\Desktop\Proyecto Final\Nueva carpeta\CMouse\CMouse\bin\Debug\CMouse.exe
+C:\Users\cesardarinel\Desktop\Proyecto Final\Nueva carpeta\CMouse\CMouse\bin\Debug\CMouse.pdb
+C:\Users\cesardarinel\Desktop\Proyecto Final\Nueva carpeta\CMouse\CMouse\obj\Debug\CMouse.csprojResolveAssemblyReference.cache
+C:\Users\cesardarinel\Desktop\Proyecto Final\Nueva carpeta\CMouse\CMouse\obj\Debug\MainWindow.baml
+C:\Users\cesardarinel\Desktop\Proyecto Final\Nueva carpeta\CMouse\CMouse\obj\Debug\MainWindow.g.cs
+C:\Users\cesardarinel\Desktop\Proyecto Final\Nueva carpeta\CMouse\CMouse\obj\Debug\App.g.cs
+C:\Users\cesardarinel\Desktop\Proyecto Final\Nueva carpeta\CMouse\CMouse\obj\Debug\CMouse_MarkupCompile.cache
+C:\Users\cesardarinel\Desktop\Proyecto Final\Nueva carpeta\CMouse\CMouse\obj\Debug\CMouse.g.resources
+C:\Users\cesardarinel\Desktop\Proyecto Final\Nueva carpeta\CMouse\CMouse\obj\Debug\CMouse.Properties.Resources.resources
+C:\Users\cesardarinel\Desktop\Proyecto Final\Nueva carpeta\CMouse\CMouse\obj\Debug\CMouse.csproj.GenerateResource.Cache
+C:\Users\cesardarinel\Desktop\Proyecto Final\Nueva carpeta\CMouse\CMouse\obj\Debug\CMouse.exe
+C:\Users\cesardarinel\Desktop\Proyecto Final\Nueva carpeta\CMouse\CMouse\obj\Debug\CMouse.pdb

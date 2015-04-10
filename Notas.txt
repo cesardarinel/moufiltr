@@ -1,0 +1,56 @@
+Entender Mickey:Modelo Abstracto:
+Discretazar la integral
+Planteamiento del sistema de coordenadas
+Modelo Abstracto
+
+Mapearlo en la pantalla:View and Port:Correspondencia con pixeles: Uno A Uno
+
+Uso de las funciones trigonometricas(no e obligao, pero puede ayuda)
+El		(math.h)
+
+Modelo: 3 espacios
+Fisico(respecto display)
+
+eje origen es la esquina superior derecha
+
+coordenadas en el fisico son discretas
+pero en logico no necesariamente`
+Logico (respecto display)
+Mouse
+
+entrenarme en usar las funcionalidades del procesador de matematicas en asembler
+
+
+
+modelo:
+sistema de referencia(coordenadas)(3 espacios)(como pasar de un espacio pal otro)
+establecer metodo de integracion numerica.
+Criterios:
+Lo mas simple posible
+Metodo de los trapecio
+Riemann
+Simpson
+Manejar lista circular o doble lista
+
+
+
+
+Los coeficientes de la sensibilidad del mouse deben manejarse en la interfaz
+
+
+El driver me va a dar los valores de la velocidad,  yo me manejo pal tiempo y busco el area bajo la curva.
+
+
+integral Vdt
+
+
+
+Modelo: 
+obtengo mickeys
+calculo velocidad y tiempo
+velocidad logica
+se intrega y se logra espacio logico
+se mapea para los pixeles.
+
+
+manual del programador y el del usuario
