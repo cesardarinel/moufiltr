@@ -1,0 +1,25 @@
+﻿Compilación iniciada a las 24/4/15 3:52:02 a. m..
+Proyecto "C:\Users\cesardarinel\Desktop\C++\Package\package.VcxProj" en el nodo 2 (Rebuild destinos).
+Inf2Cat:
+  C:\Program Files\Windows Kits\8.1\bin\x86\inf2cat.exe /os:6_3_x86 /driver:C:\Users\cesardarinel\Desktop\C++\Win8.1Release\package\ 
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\cesardarinel\Desktop\C++\Win8.1Release\package\kmdfsamples.cat
+DriverTestSign:
+  C:\Program Files\Windows Kits\8.1\bin\x86\signtool.exe sign /ph /sha1 "3D19BC025B1E99FDAE7CDED2EF48027E5D5391A9" 
+  Done Adding Additional Store
+  Successfully signed: C:\Users\cesardarinel\Desktop\C++\Win8.1Release\package\kmdfsamples.cat
+  
+Compilación del proyecto terminada "C:\Users\cesardarinel\Desktop\C++\Package\package.VcxProj" (Rebuild destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:05.59
