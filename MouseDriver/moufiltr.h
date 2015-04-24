@@ -26,6 +26,7 @@ Revision History:
 #define MOUFILTER_H
 
 #include <ntddk.h>
+
 #include <kbdmou.h>
 #include <ntddmou.h>
 #include <ntdd8042.h>
@@ -46,8 +47,23 @@ Revision History:
 #define DebugPrint(_x_)
 
 #endif
+/**
+* variables a utilizar
+**/
 
- 
+
+	//time_t timer;
+	LONGLONG  tiempo;
+	LONG  E_Fis = 200;
+	LONG  x2;
+	LARGE_INTEGER  t1;
+	LARGE_INTEGER  t2;
+	LONG  y2;
+	LONG  x1;
+	LONG  y1;
+	LONG  vmX;
+	LONG  vmY;
+
 typedef struct _DEVICE_EXTENSION
 {
  

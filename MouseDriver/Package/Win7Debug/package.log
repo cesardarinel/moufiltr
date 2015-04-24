@@ -1,25 +1,25 @@
-﻿Compilación iniciada a las 24/4/15 2:55:41 a. m..
-Proyecto "C:\Users\cesardarinel\Desktop\C++\Package\package.VcxProj" en el nodo 2 (Build destinos).
-Inf2Cat:
-  C:\Program Files\Windows Kits\8.1\bin\x86\inf2cat.exe /os:7_x86 /driver:C:\Users\cesardarinel\Desktop\C++\Win7Debug\package\ 
-  .........................
-  Signability test complete.
-  
-  Errors:
-  None
-  
-  Warnings:
-  None
-  
-  Catalog generation complete.
-  C:\Users\cesardarinel\Desktop\C++\Win7Debug\package\kmdfsamples.cat
-DriverTestSign:
-  C:\Program Files\Windows Kits\8.1\bin\x86\signtool.exe sign /ph /sha1 "28DFF674E28D514D4F267C3CFF5884E9F73B7927" 
-  Done Adding Additional Store
-  Successfully signed: C:\Users\cesardarinel\Desktop\C++\Win7Debug\package\kmdfsamples.cat
-  
-Compilación del proyecto terminada "C:\Users\cesardarinel\Desktop\C++\Package\package.VcxProj" (Build destinos).
+﻿Compilación iniciada a las 24/4/15 11:31:04 a. m..
+     1>Proyecto "D:\Disco\proyectos\github\moufiltr\MouseDriver\Package\package.VcxProj" en el nodo 2 (Build destinos).
+     1>Inf2Cat:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\inf2cat.exe /os:7_x86 /driver:D:\Disco\proyectos\github\moufiltr\MouseDriver\Win7Debug\package\ 
+         ..........................
+         Signability test complete.
+         
+         Errors:
+         None
+         
+         Warnings:
+         None
+         
+         Catalog generation complete.
+         D:\Disco\proyectos\github\moufiltr\MouseDriver\Win7Debug\package\kmdfsamples.cat
+       DriverTestSign:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\signtool.exe sign /ph /sha1 "E8EEE2BADF3F037B8C1F7E6DAD05C3DB77CC64B0" 
+         Done Adding Additional Store
+         Successfully signed: D:\Disco\proyectos\github\moufiltr\MouseDriver\Win7Debug\package\kmdfsamples.cat
+         
+     1>Compilación del proyecto terminada "D:\Disco\proyectos\github\moufiltr\MouseDriver\Package\package.VcxProj" (Build destinos).
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:02.40
+Tiempo transcurrido 00:00:00.94

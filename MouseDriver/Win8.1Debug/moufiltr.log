@@ -1,0 +1,22 @@
+﻿Compilación iniciada a las 24/4/15 11:30:35 a. m..
+     1>Proyecto "D:\Disco\proyectos\github\moufiltr\MouseDriver\moufiltr.vcxproj" en el nodo 2 (Build destinos).
+     1>StampInf:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\stampinf.exe -d "*" -a "x86" -v "*" -k "1.11" -u "1.11.0" -f .\Win8.1Debug\\moufiltr.inf 
+         Stamping .\Win8.1Debug\\moufiltr.inf [Version] section with DriverVer=04/24/2015,11.30.35.510
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IWin8.1Debug\ /Zi /nologo /W4 /WX /Od /Oi /Oy- /D _X86_=1 /D i386=1 /D STD_CALL /D DEPRECATE_DDK_FUNCTIONS=1 /D MSC_NOOPT /D _WIN32_WINNT=0x0603 /D WINVER=0x0603 /D WINNT=1 /D NTDDI_VERSION=0x06030000 /D DBG=1 /D KMDF_VERSION_MAJOR=1 /D KMDF_VERSION_MINOR=11 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Fo"Win8.1Debug\\" /Fd"Win8.1Debug\vc120.pdb" /Gz /wd4748 /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /analyze- /errorReport:prompt /kernel -cbstring /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ moufiltr.c
+         moufiltr.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win8.1Debug\moufiltr.sys" /VERSION:"6.3" /INCREMENTAL:NO /NOLOGO /WX /SECTION:"INIT,d" "C:\Program Files (x86)\Windows Kits\8.1\lib\winV6.3\KM\x86\BufferOverflowFastFailK.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\winV6.3\KM\x86\ntoskrnl.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\winV6.3\KM\x86\hal.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\winV6.3\KM\x86\wmilib.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\wdf\kmdf\x86\1.11\WdfLdr.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\wdf\kmdf\x86\1.11\WdfDriverEntry.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"Win8.1Debug\moufiltr.pdb" /SUBSYSTEM:NATIVE,"6.03" /Driver /OPT:REF /OPT:ICF /ENTRY:"FxDriverEntry@8" /RELEASE /IMPLIB:"Win8.1Debug\moufiltr.lib" /MERGE:"_TEXT=.text;_PAGE=PAGE" /MACHINE:X86 /PROFILE /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 /osversion:6.3 /pdbcompress /debugtype:pdata Win8.1Debug\moufiltr.res
+         Win8.1Debug\moufiltr.obj
+         moufiltr.vcxproj -> D:\Disco\proyectos\github\moufiltr\MouseDriver\Win8.1Debug\moufiltr.sys
+       DriverTestSign:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\signtool.exe sign /ph /sha1 "E8EEE2BADF3F037B8C1F7E6DAD05C3DB77CC64B0" 
+         Done Adding Additional Store
+         Successfully signed: D:\Disco\proyectos\github\moufiltr\MouseDriver\Win8.1Debug\moufiltr.sys
+         
+     1>Compilación del proyecto terminada "D:\Disco\proyectos\github\moufiltr\MouseDriver\moufiltr.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:02.00

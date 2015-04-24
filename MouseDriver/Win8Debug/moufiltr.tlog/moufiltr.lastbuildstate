@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=WindowsKernelModeDriver8.1:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+Win8 Debug|Win32|D:\Disco\proyectos\github\moufiltr\MouseDriver\|

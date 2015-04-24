@@ -9,4 +9,12 @@
     <SignMode>TestSign</SignMode>
     <TestCertificate>CN="WDKTestCert cesardarinel,130743137626734792" | 3D19BC025B1E99FDAE7CDED2EF48027E5D5391A9</TestCertificate>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8.1 Debug|x64'">
+    <ProductionCertificate>
+    </ProductionCertificate>
+    <TestCertificate>CN="WDKTestCert cortiz,130743629961193670" | 25890E58926E8DDE84ADEFEB9C7DFC2E7978DF62</TestCertificate>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8.1 Release|x64'">
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
 </Project>

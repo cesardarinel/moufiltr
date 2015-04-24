@@ -14,7 +14,7 @@ Class=Mouse
 ;         If you use bogus catalog file installation will fail.
 CatalogFile=KmdfSamples.cat
 
-DriverVer=04/24/2015,4.8.21.274
+DriverVer=04/24/2015,15.26.19.861
 
 [DestinationDirs]
 DefaultDestDir   = 12

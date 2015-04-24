@@ -17,6 +17,7 @@ Notes:
 --*/
 
 #include "moufiltr.h"
+#include <time.h>
 
 #ifdef ALLOC_PRAGMA
 #pragma alloc_text (INIT, DriverEntry)
@@ -490,8 +491,28 @@ Return Value:
     hDevice = WdfWdmDeviceGetWdfDeviceHandle(DeviceObject);
 
     devExt = FilterGetData(hDevice);
-	InputDataStart->LastX *= -1;
-	InputDataStart->LastY *= -1;
+//	tiempo = WDF_REL_TIMEOUT_IN_MS("5");
+	/*
+    QueryPerformanceCounter(&t1);
+	tiempo = (t1.QuadPart);*/
+
+
+	
+	x1 = x2;
+	y1 = y2;
+	x2 = InputDataStart->LastX;
+	y2 = InputDataStart->LastY;
+//	QueryPerformanceCounter(&t2);
+//t2 = WDF_REL_TIMEOUT_IN_MS(time(&timer));
+	//vmX = (x2 - x1) / (secs);
+	//vmY = (y2 - y1) / (secs);
+	
+
+	InputDataStart->LastX = x2 * E_Fis;
+	InputDataStart->LastY = y2 * E_Fis;
+
+	//InputDataStart->LastX *= -1;
+	//InputDataStart->LastY *= -1;
     //
     // UpperConnectData must be called at DISPATCH
     //
